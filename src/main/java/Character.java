@@ -7,6 +7,7 @@ public class Character {
         String charSecondRace = "Undead";
         String charMage = "Mage";
         String charWarrior = "Warrior";
+        char charSex = 'M';
         boolean charAlive = true;
         byte charLevel = 60;
         int charStrength = 15 + charLevel;
@@ -20,6 +21,9 @@ public class Character {
 
         //Character's name
         System.out.println("Character name is " + charName);
+
+        //Character sex
+        System.out.println(charName + " is " + charSex + "ale");
 
         //Character is human or undead
         if (charMainRace == "Human" && charAlive) {
